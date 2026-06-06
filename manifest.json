@@ -1,0 +1,46 @@
+{
+  "name": "Laye Movies",
+  "short_name": "Laye",
+  "description": "Discover public domain and free legal cinema in a TikTok-style movie reel experience.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#080808",
+  "theme_color": "#080808",
+  "lang": "en",
+  "dir": "auto",
+  "categories": ["entertainment", "movies"],
+  "screenshots": [],
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect width='192' height='192' rx='42' fill='%23c9a84c'/><text x='96' y='148' font-size='140' font-family='serif' font-weight='900' fill='%23080808' text-anchor='middle'>L</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect width='512' height='512' rx='112' fill='%23c9a84c'/><text x='256' y='390' font-size='380' font-family='serif' font-weight='900' fill='%23080808' text-anchor='middle'>L</text></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Discover Films",
+      "url": "/?view=discover",
+      "description": "Browse and discover new films"
+    },
+    {
+      "name": "Movie Reels",
+      "url": "/?view=reels",
+      "description": "Watch movie reels"
+    },
+    {
+      "name": "My Favorites",
+      "url": "/?view=favorites",
+      "description": "View your saved favorites"
+    }
+  ],
+  "prefer_related_applications": false
+}
